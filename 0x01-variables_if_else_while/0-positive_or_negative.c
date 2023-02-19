@@ -1,10 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  * main:assigns a random number to int n everytime
- * it executes, and prints if n is positive or negative
+ * it executes, and prints  
  * Return: 0 
  */
 int main(void)
