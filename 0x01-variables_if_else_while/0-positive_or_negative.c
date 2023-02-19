@@ -4,8 +4,7 @@
 
 /**
  * main:assigns a random number to int n everytime
- * it executes, and prints it
- * whether the number is positive or negative.
+ * it executes, and prints if n is positive or negative
  * Return: 0 
  */
 int main(void)
