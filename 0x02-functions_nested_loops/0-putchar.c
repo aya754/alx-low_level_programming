@@ -1,7 +1,7 @@
 /**
- * main Entry Point
- * Description:'prints _putchar,followed by a new line'
- * Return:0(Success)
+ * main - Prints "_putchar" followed by a new line.
+ *
+ * Return: Always 0.
  */
 #include "main.h"
 int main(void)
@@ -15,5 +15,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 
-	return(0);
+	return (0);
 }
