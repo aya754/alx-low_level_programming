@@ -20,7 +20,7 @@ void times_table(void)
 			result = num * multi;
 			if (result <= 9)
 			{
-				_putchar('result + '0');
+				_putchar(result + '0');
 			}
 			else
 			{
