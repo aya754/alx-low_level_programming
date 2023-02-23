@@ -1,9 +1,10 @@
-/**
- * main - print_alphabet_x10 - in lowercase
- * followed by a new line
- *
- * Return: void.
- */
+ /**
+  * main - print_alphabet_x10 - in lowercase
+  *
+  * Description: 'followed by a new line'
+  *
+  * Return: void
+  */
 #include "main.h"
 void print_alphabet_x10(void)
 {
