@@ -20,14 +20,14 @@ void times_table(void)
 			}
 			if (result < 10 && multi != 0)
 			{
-				_putchar('44');
-				_putchar('32');
-				_putchar('32');
+				_putchar(44);
+				_putchar(32);
+				_putchar(32);
 				_putchar(result + '0');
 			} else if (result >= 10)
 			{
-				_putchar('44');
-				_putchar('32');
+				_putchar(44);
+				_putchar(32);
 				_putchar((result / 10) + '0');
 				_putchar((result % 10) + '0');
 			}
