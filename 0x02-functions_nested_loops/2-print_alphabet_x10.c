@@ -1,11 +1,10 @@
- /**
-  * main - print_alphabet_x10 - in lowercase
-  *
-  * Description: 'followed by a new line'
-  *
-  * Return: void
-  */
+/**
+ * print_alphabet_x10 - Make alphabet x10 times
+ *
+ * Return: void
+ */
 #include "main.h"
+
 void print_alphabet_x10(void)
 {
 	char c;
