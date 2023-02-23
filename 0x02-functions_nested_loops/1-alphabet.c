@@ -2,7 +2,7 @@
 /**
  * main prints_alphabet - In lowercase
  *
- * Return: void
+ * Return: Always 0
  */
 #include "main.h"
 void print_alphabet(void)
@@ -15,4 +15,3 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
-
