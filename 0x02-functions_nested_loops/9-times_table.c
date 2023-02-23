@@ -11,6 +11,8 @@ void times_table(void)
 
 	for (num = 0; num < 10; num++)
 	{
+		_putchar ('0');
+
 		for (multi = 1; multi < 10; multi++)
 		{
 			result = num * multi;
@@ -36,5 +38,4 @@ void times_table(void)
 		_putchar('\n');
 	}
 }
-
 
