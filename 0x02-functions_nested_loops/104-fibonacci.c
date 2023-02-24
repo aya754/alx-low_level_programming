@@ -10,7 +10,7 @@ int main(void)
 {
 	int i;
 	unsigned long fibo1 = 0, fibo2 = 1, sum;
-	unsigned long fibo1_half1, fibo1_half2, fib02_half1, fib02_half2;
+	unsigned long fibo1_half1, fibo1_half2, fibo2_half1, fibo2_half2;
 	unsigned long half1, half2;
 
 	for (i = 0; i < 92; i++)
