@@ -5,7 +5,6 @@
  * @n: The integer to be printed
  * Return: void
  */
-#include "holberton.h"
 
 void print_number(int n)
 {
