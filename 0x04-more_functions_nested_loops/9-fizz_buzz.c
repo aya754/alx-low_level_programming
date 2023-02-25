@@ -17,15 +17,25 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 15 == 0)
+		{
 			prinf("FizzBuzz");
+		}
 		else if (i % 3 == 0)
+		{
 			prinf("Fizz");
+		}
 		else if (i % 5 == 0)
+		{
 			prinf("Buzz");
+		}
 		else
+		{
 			prinf("%i", i);
+		}
 		if (i < 100)
+		{
 			prinf(" ");
+		}
 	}
 	printf("\n");
 	return (0);
