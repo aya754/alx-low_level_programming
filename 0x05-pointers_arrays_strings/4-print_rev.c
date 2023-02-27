@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_rev - prints a string, in reverse
+ * print_rev - prints a string,in reverse
  *
- * @str: The string to print
+ * @s: The string to print
  *
  * Return: void
  */
@@ -13,7 +13,7 @@ void print_rev(char *s)
 
 	while (s[r] != '\0')
 	{
-		c++;
+		r++;
 	}
 	for (r -= 1; r >= 0; r--)
 	{
