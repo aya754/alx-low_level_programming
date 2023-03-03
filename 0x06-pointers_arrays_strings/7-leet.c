@@ -8,22 +8,20 @@
  */
 char *leet(char *s)
 {
-	int i, k, m;
+	int i, k;
 
-	char l[] = 'aAeEoOtTlL';
+	char [] = 'aAeEoOtTlL';
 	char e[] = '4433007711';
 
 	i = 0;
-	while (l[i] != '\0')
+	while (s[i] != '\0')
 	{
 		k = 0;
-		m = 0;
 		while (l[k] != '\0')
 		{
 			if (s[i] == l[k])
 			{
-				m = k;
-				s[i] = e[m];
+				s[i] = e[k];
 			}
 			k++;
 		}
