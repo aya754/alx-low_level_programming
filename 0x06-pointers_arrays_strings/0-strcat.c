@@ -3,8 +3,8 @@
 /**
  * _strcat - concatenates two strings
  *
- * @src: This is the input src
- * @dest: This is the output dest
+ * @src: This is the input string
+ * @dest: This is the output string
  *
  * Return: dest
  */
@@ -13,11 +13,20 @@ char *_strcat(char *dest, char *src)
 {
 	int x, y;
 
-	for (x = 0; dest[x] != '\0'; x++)
-	for (y = 0; src[y] != '\0'; y++)
+	x = 0;
+
+	while (src[x] != '\0')
 	{
-		dest[x] = src[y];
 		x++;
+	}
+
+	y = 0;
+
+	while (dest[y] != '\0')
+	{
+		dest[y] = src[x];
+		x++;
+		y++;
 	}
 	return (dest);
 }
