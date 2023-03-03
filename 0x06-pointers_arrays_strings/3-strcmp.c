@@ -5,7 +5,7 @@
  * @s1: the first string be compared
  * @s2: the second string be compared
  *
- * Return: void
+ * Return: 0 if equal or b if is different
  */
 int _strcmp(char *s1, char *s2)
 {
