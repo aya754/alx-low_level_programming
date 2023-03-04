@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+/**
+ * main - Add one line
+ *
+ * description: the program prints a[2] = 98
+ *
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
