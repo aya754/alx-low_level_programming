@@ -1,26 +1,28 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_number - function that prints an integer
- * @n: int type number
+ * @n: integer number be printed
  *
  */
 void print_number(int n)
 {
-	int n;
+	insigned int num;
 
 	if (n < 0)
 	{
-		putchar('-');
-		n = -n;
+		num = -n;
+		_putchar('-');
+
 	}
 	else if (n == 0)
 	{
 		putchar('0');
 	}
-	else if (n / 10)
+	else if (num / 10)
 	{
-		printnumber(n / 10);
+		print_number(num / 10);
 	}
-	putchar(n % 10 + '0');
+
+	_putchar((num % 10) + '0');
 }
