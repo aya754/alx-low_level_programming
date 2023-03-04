@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * rot13 - encodes a string
- * @n: the input string
+ * rot13 - encodes a string in rot13
+ * @s: string to be encoded
  *
  * Return: the resulting string
  */
@@ -15,7 +15,7 @@ char *rot13(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (k = 0; x[k] != '\0'; k++)
+		for (k = 0; a[j] != '\0'; k++)
 		{
 			if (s[i] == x[k])
 			{
